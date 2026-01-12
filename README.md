@@ -36,10 +36,6 @@ My sweet spot is taking annoying, repetitive problems and turning them into auto
 
 Python mostly. Django/FastAPI for web stuff. React when I need a frontend. PyTorch for ML. Docker to keep things sane. Raspberry Pi for hardware projects.
 
-## Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Xza85hrf&show_icons=true&theme=dark&hide_border=true)
-
 ## Looking For
 
 IT Support Specialist roles where I can actually use my dev skills - not just reset passwords all day.
