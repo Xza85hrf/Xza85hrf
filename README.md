@@ -17,6 +17,7 @@ My sweet spot is taking annoying, repetitive problems and turning them into auto
 - [gpu-monitor](https://github.com/Xza85hrf/gpu-monitor) - quick visual check on GPU/memory usage
 - [Ollama_monitor](https://github.com/Xza85hrf/Ollama_monitor) - tests if my local AI server is actually responding
 - [ML-Framework_Checker](https://github.com/Xza85hrf/ML-Framework_Checker) - checks if PyTorch/TensorFlow/CUDA are set up right (saved me hours of debugging)
+- [Excel-Tools](https://github.com/Xza85hrf/Excel-Tools) - file verification, data generation, and comparison utilities
 
 **Audio/Video processing:**
 - [VoiceSmith-Complete](https://github.com/Xza85hrf/VoiceSmith-Complete) - transcription, translation, subtitles - all in one
@@ -27,6 +28,7 @@ My sweet spot is taking annoying, repetitive problems and turning them into auto
 - [flux_pipeline](https://github.com/Xza85hrf/flux_pipeline) - image generation with FLUX.1
 - [ai-background-removal](https://github.com/Xza85hrf/ai-background-removal) - tried multiple models, compared results
 - [deep-cline](https://github.com/Xza85hrf/deep-cline) - AI coding assistant in VS Code
+- [multi-agent-platform](https://github.com/Xza85hrf/multi-agent-platform) - multi-agent AI orchestration framework
 
 **Hardware projects (the fun stuff):**
 - [Arachne_Picrawler](https://github.com/Xza85hrf/Arachne_Picrawler) - robot spider that talks to GPT-4/Claude/Ollama
