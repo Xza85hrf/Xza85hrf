@@ -1,0 +1,51 @@
+# Companion to v5-hybrid.md
+#
+# Install path: .github/workflows/snake.yml (inside the Xza85hrf profile repo)
+# Purpose:      Regenerates the snake contribution graph SVGs every 12 hours
+#               and pushes them to the `output` branch, where README.md
+#               references them via <img>.
+#
+# After installing this file:
+#   1. Go to the repo's Settings → Actions → General
+#   2. Under "Workflow permissions" set "Read and write permissions"
+#   3. Trigger the first run manually: Actions tab → "generate snake" → Run workflow
+#   4. Wait ~30 seconds; verify the `output` branch now exists with two SVG files
+#
+# Tweaks:
+#   - Change `cron` if you want a different refresh cadence
+#   - Adjust `color_snake` / `color_dots` to match your theme
+#   - The palette values below match v5-hybrid's Tokyo-Night-ish dark mode
+
+name: generate snake
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # every 12 hours
+  workflow_dispatch:          # manual trigger
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Generate snake SVGs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+
+      - name: Push SVGs to `output` branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
