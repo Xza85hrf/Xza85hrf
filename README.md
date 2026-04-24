@@ -20,19 +20,11 @@ My sweet spot is taking annoying, repetitive problems and turning them into auto
 - [Excel-Tools](https://github.com/Xza85hrf/Excel-Tools) - file verification, data generation, and comparison utilities
 
 **Audio/Video processing:**
-- [VoiceSmith-Complete](https://github.com/Xza85hrf/VoiceSmith-Complete) - transcription, translation, subtitles - all in one
 - [Whisper-Subtitle-Generator](https://github.com/Xza85hrf/Whisper-Subtitle-Generator) - throws audio at Whisper, gets subtitles back
 - [Subtitle_Translator](https://github.com/Xza85hrf/Subtitle_Translator) - batch translate .srt files
 
 **AI experiments that actually work:**
 - [flux_pipeline](https://github.com/Xza85hrf/flux_pipeline) - image generation with FLUX.1
-- [ai-background-removal](https://github.com/Xza85hrf/ai-background-removal) - tried multiple models, compared results
-- [deep-cline](https://github.com/Xza85hrf/deep-cline) - AI coding assistant in VS Code
-- [multi-agent-platform](https://github.com/Xza85hrf/multi-agent-platform) - multi-agent AI orchestration framework
-
-**Hardware projects (the fun stuff):**
-- [Arachne_Picrawler](https://github.com/Xza85hrf/Arachne_Picrawler) - robot spider that talks to GPT-4/Claude/Ollama
-- [dARM-ai](https://github.com/Xza85hrf/dARM-ai) - 6-axis robotic arm, designed and 3D printed the whole thing
 
 ## Tech I Use
 
