@@ -121,24 +121,17 @@ Ops: Docker · systemd · Raspberry Pi · Tailscale
 <summary><b>Stats deep-dive</b></summary>
 <br/>
 
-<table>
-<tr>
-<td>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Xza85hrf&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&hide_title=true"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Xza85hrf&show_icons=true&theme=default&include_all_commits=true&count_private=true&hide_border=true&hide_title=true"/>
-    <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Xza85hrf&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&hide_title=true" height="165"/>
-  </picture>
-</td>
-<td>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Xza85hrf&layout=compact&theme=github_dark&hide_border=true&langs_count=8"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Xza85hrf&layout=compact&theme=default&hide_border=true&langs_count=8"/>
-    <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Xza85hrf&layout=compact&theme=github_dark&hide_border=true&langs_count=8" height="165"/>
-  </picture>
-</td>
-</tr>
-</table>
+<!--
+  NOTE: Nested <picture> elements inside <details><table> have known
+  rendering quirks on GitHub. Using plain <img> with the `transparent`
+  theme so the card reads cleanly on both light and dark backgrounds.
+-->
+
+<p align="center">
+  <img alt="GitHub stats" height="170" src="https://github-readme-stats.vercel.app/api?username=Xza85hrf&show_icons=true&theme=transparent&hide_border=true&title_color=58A6FF&icon_color=58A6FF"/>
+  &nbsp;
+  <img alt="Top languages" height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Xza85hrf&layout=compact&theme=transparent&hide_border=true&title_color=58A6FF&langs_count=8"/>
+</p>
 
 </details>
 
